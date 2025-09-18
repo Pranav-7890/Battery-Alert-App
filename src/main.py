@@ -4,6 +4,7 @@ from notifications.notifier import send_notification
 from config.settings import low_battery, full_battery
 import sys
 from ui.main_window import main
+from PyQt5.QtWidgets import QApplication
 
 def check_battery():
     battery = psutil.sensors_battery()
