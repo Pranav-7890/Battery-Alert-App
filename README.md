@@ -1,4 +1,169 @@
-# Battery-Alert-App
+# ⚡ Battery Alert App  
+
+> A modern, customizable **Windows battery monitoring application** with a sleek PyQt5 GUI.  
+> Get **real-time notifications** for low and full battery, track **battery health**, view **time estimates**, and stay in control of your power usage!  
+
+---
+
+## ✨ Features  
+
+✅ **Customizable thresholds** for low and full battery alerts  
+✅ **User-defined cooldown interval** between repeated alerts  
+✅ **Real-time battery status** (charging/discharging, percentage)  
+✅ **Battery health indicator** (*Good / Moderate / Low*)  
+✅ **Estimated time remaining** until empty/full  
+✅ **Modern PyQt5 UI** with dark mode & accessible controls  
+✅ **Color-coded status bar:**  
+   - 🔵 Discharging  
+   - 🟢 Charging (below max threshold)  
+   - 🔴 Alert (low or full threshold reached)  
+✅ **Cross-platform notifications** via Plyer  
+✅ **Instant setting updates** (no restart required)  
+
+---
+## ✨ More Features  to come
+
+**Show battery health and estimated time remaining.** <br>
+**Option to run at Windows startup.** <br>
+**Custom notification sounds.** <br>
+**Dark/light mode for UI.** <br>
+**Log battery history and export as CSV.** <br>
+**System tray icon for quick access. Multi-language support.**
+
+
+---
+
+
+## 📂 Project Structure  
+
+```
+battery-monitor-app
+├── src
+│   ├── main.py              # Entry point (launches the GUI)
+│   ├── ui
+│   │   └── main_window.py   # PyQt5 interface & logic
+│   ├── notifications
+│   │   └── notifier.py      # Notification handling (plyer)
+│   └── config
+│       └── settings.py      # Threshold & config handling
+├── requirements.txt         # Dependencies
+└── README.md                # Documentation
+```
+
+---
+
+## ⚙️ Installation  
+
+1. **Clone the repository:**  
+   ```bash
+   git clone <repository-url>
+   cd battery-monitor-app
+   ```
+
+2. **Create & activate a virtual environment (recommended):**
+   ```bash
+   python -m venv venv
+
+   # On Windows (CMD):
+   venv\Scripts\activate
+
+   # On Windows (PowerShell):
+   .\venv\Scripts\Activate.ps1
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## ▶️ Usage  
+
+Run the app with:
+```bash
+python src/main.py
+```
+This will launch the graphical user interface (GUI).
+
+---
+
+## 🖥️ How It Works  
+
+1. Set thresholds for low & full battery.  
+2. Adjust cooldown for notification frequency.  
+3. Hit **Apply Settings** → Preferences update instantly.  
+4. Press **Start Monitoring** → Battery monitoring begins.  
+
+**Status bar colors:**  
+- 🔵 Discharging  
+- 🟢 Charging (below max threshold)  
+- 🔴 Alert (low or full threshold)  
+
+**View:**  
+- 📊 Health: Good / Moderate / Low  
+- ⏳ Time left: Estimated charge/discharge duration  
+
+**Notifications:** Receive alerts when thresholds are crossed!  
+
+---
+
+## 🎨 Customization  
+
+⚡ Thresholds & cooldown are fully adjustable anytime.  
+🌓 Dark mode enabled by default for a modern look.  
+📐 Responsive design → Adapts to resizing, but never shrinks below usability standards.  
+
+---
+
+## 🔔 Notifications  
+
+⚠️ **Low battery:** Triggers when ≤ low threshold (while discharging).  
+🔋 **Full battery:** Triggers when ≥ full threshold (while charging).  
+⏱️ **Cooldown interval:** Controls how often reminders repeat (default: 30s).  
+
+---
+
+## 📝 Notes  
+
+- Battery health & time remaining are estimated using OS + psutil data.  
+- Advanced info like Design Capacity / Full Charge Capacity is not shown (extendable via Windows WMI).  
+- All settings are session-based (not saved after exit).  
+
+---
+
+## 📦 Dependencies  
+
+- **PyQt5** → GUI  
+- **psutil** → Battery info  
+- **plyer** → System notifications  
+
+Install all with:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🤝 Contributing  
+
+Contributions are welcome! 🎉  
+- Open an issue for bugs/features  
+- Submit a pull request for improvements  
+
+---
+
+## 📸 Screenshots  
+
+- **Main Window**  
+- **Settings Example**  
+
+---
+
+
+
+
+<!--# Battery-Alert-App
 
 A modern, customizable Windows battery monitoring application with a graphical user interface (GUI).  
 Get real-time notifications for low and full battery, view battery health, estimated time remaining, and more.
@@ -131,9 +296,9 @@ pip install -r requirements.txt
 
 Feel free to submit issues or pull requests if you have suggestions or improvements for the project.
 
----
+----->
 
 ## Screenshots
 
-![Main Window](image-1.png)
-![Settings Example](image.png)
+![Main Window](/images/Openwindow.png)
+![Settings Example](image.png) 
