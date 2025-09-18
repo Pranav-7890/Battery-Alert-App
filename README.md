@@ -76,7 +76,8 @@ Run the app with:
 python src/main.py
 ```
 This will launch the graphical user interface (GUI).
-
+- **GUI Window**
+  ![Main Window](./images/Open_Window.png)
 ---
 
 ## 🖥️ How It Works  
@@ -159,8 +160,7 @@ Contributions are welcome! 🎉
 
 ## 📸 Screenshots  
 
-- **Main Window**
-  ![Main Window](./images/Open_Window.png)
+
 - **After Setting Thresholds**
   ![Main Window](./images/settings_on_charging.png)
 - **Min Thresholds**
