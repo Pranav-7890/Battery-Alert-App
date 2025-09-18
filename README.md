@@ -3,6 +3,8 @@
 > A modern, customizable **Windows battery monitoring application** with a sleek PyQt5 GUI.  
 > Get **real-time notifications** for low and full battery, track **battery health**, view **time estimates**, and stay in control of your power usage!  
 
+![Main Image](./images/Main_image.png)
+
 ---
 
 ## ✨ Features  
@@ -19,17 +21,6 @@
    - 🔴 Alert (low or full threshold reached)  
 ✅ **Cross-platform notifications** via Plyer  
 ✅ **Instant setting updates** (no restart required)  
-
----
-## ✨ More Features  to come
-
-**Show battery health and estimated time remaining.** <br>
-**Option to run at Windows startup.** <br>
-**Custom notification sounds.** <br>
-**Dark/light mode for UI.** <br>
-**Log battery history and export as CSV.** <br>
-**System tray icon for quick access. Multi-language support.**
-
 
 ---
 
@@ -145,6 +136,19 @@ pip install -r requirements.txt
 
 ---
 
+## ✨ More Features  to come
+
+- **Show battery health and estimated time remaining.** <br>
+- **Option to run at Windows startup.** <br>
+- **Custom notification sounds.** <br>
+- **Dark/light mode for UI.** <br>
+- **Log battery history and export as CSV.** <br>
+- **System tray icon for quick access. Multi-language support.**
+
+
+---
+
+
 ## 🤝 Contributing  
 
 Contributions are welcome! 🎉  
@@ -155,8 +159,15 @@ Contributions are welcome! 🎉
 
 ## 📸 Screenshots  
 
-- **Main Window**  
-- **Settings Example**  
+- **Main Window**
+  ![Main Window](./images/Open_Window.png)
+- **After Setting Thresholds**
+  ![Main Window](./images/settings_on_charging.png)
+- **Min Thresholds**
+  ![Main Window](/images/min_limit_notification.png)
+- **Max Thresholds**
+  ![Main Window](./images/max_limit_notification.png)
+
 
 ---
 
@@ -296,9 +307,10 @@ pip install -r requirements.txt
 
 Feel free to submit issues or pull requests if you have suggestions or improvements for the project.
 
------>
+
 
 ## Screenshots
 
 ![Main Window](/images/Openwindow.png)
-![Settings Example](image.png) 
+![Settings Example](image.png)  
+----->
